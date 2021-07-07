@@ -1,0 +1,88 @@
+ 
+.backgroundHeader {
+    background-image: url("https://cdn.corporatefinanceinstitute.com/assets/business-deal.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.first{
+    height: 300px;
+}
+.preklop {
+    background-color: aqua;
+    z-index: 100;
+    
+    
+}
+
+
+.menu  {
+    
+    padding: 20px 50px ;
+    text-align: center;
+
+}
+
+
+.second p {
+   
+    text-align: left;
+    
+}
+.second h5{
+    padding-top: 50px;
+}
+
+.third {
+    background-color: rgb(209, 202, 202);
+    padding: 15px;
+
+    
+}
+.first,.second,.fourth {
+    padding: 0 50px;
+    text-align: center;
+
+}
+
+h5 {
+    text-align: left;
+}
+.fourth {
+    
+    padding-top: 40px;
+}
+
+.fourth img {
+    width: 300px;
+
+}
+
+.buildings, .buildingsText {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+    
+
+}
+
+.buildings img {
+
+   width: 100%;
+   padding-right: 70px;
+
+
+}
+.buildingsText p {
+    
+    text-align: justify;
+    padding: 0 30px;   
+}
+.buildingsText h2 {
+    padding-left: 30px;
+    width: 100%;
+}
