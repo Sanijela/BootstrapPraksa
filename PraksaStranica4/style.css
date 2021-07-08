@@ -1,0 +1,14 @@
+.mainContainer {
+  margin-bottom: 80px;
+  margin-top: 100px;
+}
+
+.paragraf_text {
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .imgContent {
+    margin-bottom: 25px;
+  }
+}
