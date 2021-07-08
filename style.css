@@ -4,19 +4,26 @@
     padding-top: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+
 }
 .headerTop{
     display: inline-flex;
+    text-align: center;
 }
 
 a {
     padding-right: 30px;
     text-decoration: none;
     color: black;
+    text-align: center;
+    
+    
 }
 p, .font{
     padding-right: 30px;
     color: black;
+    text-align: center;
+
 }
 
 a:active, a:hover{
@@ -30,6 +37,12 @@ a:active, a:hover{
 
 .first, .second{
     padding-top: 30px ;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+    
+    
     
 
 }
@@ -40,15 +53,18 @@ a:active, a:hover{
 .books{
     padding-top:10px;
     padding-bottom: 25px;
-        
+    
 }
 
 .books img{
     width: 200px;
     padding-bottom: 10px;
+  
     
 
 }
+
+
 
 .books:hover, .second:hover{
     background-color:lightgray;
@@ -110,4 +126,39 @@ span{
 }
 
 /* komentar */
+
+
+/* 
+@media screen and (max-width: 768px){
+    .header, .pagination{
+        flex-direction: column;
+        padding: 10px;
+
+    }
+} */
+
+
+@media screen and (max-width: 576px){
+    .headerTop, .pagination{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .header{
+        text-align: center;
+
+    }
+    .headerTop a, .headerTop p{
+        text-align: center;
+
+    }
+
+
+    .firstRow, .secondRow, .books{
+        text-align: center;
+    }
+    
+}
 
