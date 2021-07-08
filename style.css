@@ -1,0 +1,111 @@
+
+.header{
+  
+    padding-top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.headerTop{
+    display: inline-flex;
+}
+
+a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+p, .font{
+    padding-right: 30px;
+    color: black;
+}
+
+a:active, a:hover{
+   text-decoration-line: underline;
+   text-decoration-color: palevioletred;
+   color: black;
+   
+
+}
+
+
+.first, .second{
+    padding-top: 30px ;
+    
+
+}
+
+/* .first:hover, .second:hover{
+    background-color: rgb(189, 184, 184);
+} */
+.books{
+    padding-top:10px;
+    padding-bottom: 25px;
+        
+}
+
+.books img{
+    width: 200px;
+    padding-bottom: 10px;
+    
+
+}
+
+.books:hover, .second:hover{
+    background-color:lightgray;
+}
+.pagination{
+    padding-top: 20px;
+}
+
+/* odavde ide kopija koda */
+
+
+.pagination > li > a
+{
+    background-color:transparent;
+    color: black;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: palevioletred;
+    /* background-color: #eee; */
+    /* border-color:transparent; */
+}
+
+.pagination > .active > a
+{
+    /* color: white; */
+    background-color: palevioletred;
+    /* border: solid 1px palevioletred; */
+}
+
+.pagination > .active > a:hover
+{
+    background-color: palevioletred;
+    /* border: solid 1px palevioletred; */
+}
+.cover{
+   height: 270px;
+}
+.fa-comment-alt{
+    padding-right: 5px;
+}
+span{
+    padding-right: 5px;
+}
+.fa-heart{
+    padding-right: 5px;
+    color: palevioletred;
+}
+#blackHeart{
+    color: black;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+}
+
