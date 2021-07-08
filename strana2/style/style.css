@@ -1,0 +1,147 @@
+
+/* plava: #123D72
+roza: #D94A66
+sivkasta: #E6E6E6
+plavkasta: #E0ECFA
+ikonaplava: #42B8D6 */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    padding-top: 50px;
+}
+/* first column */
+/* .first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+} */
+.firstRow{
+    height: 600px;
+    /* margin: 100px 0 20px 0; */
+    
+}
+.personsPicture{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.personsPicture img{
+    width: 200px;
+    height: 200px;
+    object-position: top;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.personalInfo{
+    text-align: center;
+    height: 200px;
+}
+.personalInfo h4{
+    color: #D94A66;
+}
+/* biography */
+.bio{
+    height: 400px;
+    background-color: #E0ECFA;
+    position: relative;
+    z-index: -5;
+}
+
+.bioText h4{
+    font-weight: 100;
+    padding-left: 5px;
+    background-color: #D94A66;
+    width: 100px; 
+    color: white;
+    margin: -8px 10px 10px -20px;
+    float: left;
+}
+.bio p{
+    padding: 15px;
+}
+/* Contacts */
+
+.titleSecundRow,
+.titleSecundRowSkils,
+.titleSecundRowTable{
+    position: relative;
+    color: white;
+    background-color: #D94A66;
+    width: 60%;
+    margin-bottom: -8px;
+    margin-left: 20px;
+    padding: 15px 0 15px 5px; 
+   
+}
+/* sacund column */
+/* contact info */
+.contactInfo, .skilsInfo{
+    background-color: #123D72;
+    color: white;
+    padding: 20px;
+    z-index: -10;
+} 
+table, td{
+    border-collapse: collapse;
+}
+table, tbody, tr{
+    width: 100%;
+    margin: 0;
+}
+td{
+    vertical-align: middle;
+    padding: 10px;
+}
+.info{
+    margin: 0;
+}
+/* skils */
+.skils{
+    position: relative;
+    background-color: #E6E6E6;
+    height: 400px;
+}
+
+.skilsInfo{
+    background-color: #E6E6E6;
+}
+.titleSecundRowSkils{
+    position: absolute;
+    
+    margin-top: -42px;
+     
+   
+}
+/* myGroup */
+.titleSecundRowTable{
+    margin-left: calc(10% + 20px);
+}
+.myGroupTable td{
+    border: 1px solid #E2E2E2;
+    
+}
+
+.myGroup table{
+    padding-left: 10%;
+    width: 80%;
+    border-collapse: separate;
+    border-spacing: 0 2px;
+    color: #BDBDBD;
+}
+tr :nth-child(even){
+    border-left: none;
+}
+tr :nth-child(odd){
+    border-right: none;
+}
+
+
+
+
+
