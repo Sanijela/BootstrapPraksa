@@ -6,3 +6,5 @@
  ng-model="currentPage" 
  ng-change="pageChanged()">
 </pagination>
+
+// komentar
