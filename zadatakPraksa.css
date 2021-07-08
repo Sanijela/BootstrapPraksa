@@ -1,3 +1,6 @@
+.pageContainer{
+    padding: 15px;
+}
  .backgroundHeader {
     background-image: url("https://cdn.corporatefinanceinstitute.com/assets/business-deal.jpeg");
     background-repeat: no-repeat;
@@ -13,12 +16,17 @@
   padding: 35px 20px 45px 20px;
   height: 280px;
   position: absolute;
-  top: 2%;
+  top: 25px;
   left: 50%;
   color: #fff;
     
 }
-
+.backgroundHeader p, .backgroundHeader h1{
+    position: relative;
+    top: 40%;
+    background-color: rgba(255, 255, 255, 0.60);
+    
+}
 
 .menu  {
     
@@ -35,6 +43,24 @@
 }
 .second h5{
     padding-top: 50px;
+}
+.icoContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.ico{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-color: #D94A66;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    font-size: 1.65rem;
+    
+   
 }
 
 .third {
