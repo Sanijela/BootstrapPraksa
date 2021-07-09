@@ -79,6 +79,21 @@ body{
     padding: 15px 0 15px 5px; 
    
 }
+.linkedinIco, .facebookIco, .twitterIco{
+    border-radius: 50%;
+    padding: 10px;
+}
+.linkedinIco{
+    background-color: #0A7EAD;
+}
+.facebookIco{
+    background-color: #1A619F;
+    width: 36px;
+    padding-left: 12px;
+}
+.twitterIco{
+    background-color: #1CB8E1;
+}
 /* sacund column */
 /* contact info */
 .contactInfo, .skilsInfo{
